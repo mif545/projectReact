@@ -14,6 +14,7 @@ const ResetIdForm = (props) => {
         const value = target.value;
         setId(value);
         props.idUserSaved(value);
+        console.log("gitHab")
       
       }
       
